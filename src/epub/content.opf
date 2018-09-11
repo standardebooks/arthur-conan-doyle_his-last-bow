@@ -37,9 +37,9 @@
 		<meta property="se:subject">TAG</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
+		<meta id="long-description" property="se:long-description" refines="#description">
 			LONGDESCRIPTION
-		]]></meta>
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>LANG</dc:language>
 		<dc:source>LINK</dc:source>
@@ -80,14 +80,32 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/the-adventure-of-wisteria-lodge.xhtml" id="the-adventure-of-wisteria-lodge.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-the-red-circle.xhtml" id="the-adventure-of-the-red-circle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-the-bruce-partington-plans.xhtml" id="the-adventure-of-the-bruce-partington-plans.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-the-dying-detective.xhtml" id="the-adventure-of-the-dying-detective.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-disappearance-of-lady-frances-carfax.xhtml" id="the-disappearance-of-lady-frances-carfax.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-the-devils-foot.xhtml" id="the-adventure-of-the-devils-foot.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/his-last-bow.xhtml" id="his-last-bow.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="the-adventure-of-wisteria-lodge.xhtml"/>
+		<itemref idref="the-adventure-of-the-red-circle.xhtml"/>
+		<itemref idref="the-adventure-of-the-bruce-partington-plans.xhtml"/>
+		<itemref idref="the-adventure-of-the-dying-detective.xhtml"/>
+		<itemref idref="the-disappearance-of-lady-frances-carfax.xhtml"/>
+		<itemref idref="the-adventure-of-the-devils-foot.xhtml"/>
+		<itemref idref="his-last-bow.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
