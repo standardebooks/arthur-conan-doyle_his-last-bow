@@ -5,3 +5,16 @@
 	font-variant: small-caps;
 	text-align: center;
 }
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
+footer{
+	text-align: right;
+}
+
+.signature{
+	font-variant: small-caps;
+}
