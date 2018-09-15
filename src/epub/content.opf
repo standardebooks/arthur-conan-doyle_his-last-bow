@@ -30,42 +30,63 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">His Last Bow</dc:title>
 		<meta property="file-as" refines="#title">His Last Bow</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Some Reminiscences of Sherlock Holmes</dc:title>
+		<meta property="file-as" refines="#subtitle">Some Reminiscences of Sherlock Holmes</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">His Last Bow: Some Reminiscences of Sherlock Holmes</dc:title>
+		<meta property="file-as" refines="#fulltitle">His Last Bow: Some Reminiscences of Sherlock Holmes</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Holmes, Sherlock (Fictitious character) -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Private investigators -- England -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Detective and mystery stories</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/2350</meta>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/2350</meta>
+		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/2350</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
+		<dc:description id="description">The world’s first consulting detective and his faithful biographer tackle more mysterious cases.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			&lt;p&gt;&lt;i&gt;His Last Bow: Some Reminiscences of Sherlock Holmes&lt;/i&gt; is the fourth collection of Sherlock Holmes stories published by Arthur Conan Doyle. It begins with a preface by Dr. John Watson, supposedly written in 1917, assuring the reader that Holmes is still alive but living in quiet retirement in Sussex.&lt;/p&gt;
+			&lt;p&gt;This collection contains the well-known stories “The Adventure of the Bruce-Partington Plans,” in which Holmes has to track down stolen plans for a new kind of submarine; and “The Adventure of the Devil’s Foot” in which a Cornish family is found one morning driven mad or dead, with expressions of horror on their faces. The titular story “His Last Bow” is set on the very eve of the outbreak of the First World War, and involves Holmes and Watson coming out of retirement to defeat a German spy.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://www.gutenberg.org/ebooks/2343</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/2345</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/2346</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/2347</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/2348</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/2349</dc:source>
+		<dc:source>https://www.gutenberg.org/ebooks/2350</dc:source>
+		<dc:source>https://archive.org/details/hislastbowaremi01doylgoog</dc:source>
+		<meta property="se:production-notes">This volume has been assembled from separate productions of each short story at Project Gutenberg. Note that it does not include the story “The Adventure of the Cardboard Box,” which is included in its proper chronological place in the SE edition of “The Memoirs of Sherlock Holmes.”</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/His_Last_Bow</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/arthur-conan-doyle_his-last-bow</meta>
 		<dc:creator id="author">Arthur Conan Doyle</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Doyle, Arthur Conan</meta>
+		<meta property="se:name.person.full-name" refines="#author">Sir Arthur Ignatius Conan Doyle</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Arthur_Conan_Doyle</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79082292</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="artist">Arthur Hacker</dc:contributor>
+		<meta property="file-as" refines="#artist">Hacker, Arthur</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Arthur_Hacker</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr92027511</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
+		<dc:contributor id="transcriber-1">David Brannan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Brannan, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="transcriber-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Grigg, David</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -80,17 +101,17 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/the-adventure-of-wisteria-lodge.xhtml" id="the-adventure-of-wisteria-lodge.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-adventure-of-the-red-circle.xhtml" id="the-adventure-of-the-red-circle.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-adventure-of-the-bruce-partington-plans.xhtml" id="the-adventure-of-the-bruce-partington-plans.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-adventure-of-the-dying-detective.xhtml" id="the-adventure-of-the-dying-detective.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-disappearance-of-lady-frances-carfax.xhtml" id="the-disappearance-of-lady-frances-carfax.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-adventure-of-the-devils-foot.xhtml" id="the-adventure-of-the-devils-foot.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/his-last-bow.xhtml" id="his-last-bow.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/his-last-bow.xhtml" id="his-last-bow.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-the-bruce-partington-plans.xhtml" id="the-adventure-of-the-bruce-partington-plans.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-the-devils-foot.xhtml" id="the-adventure-of-the-devils-foot.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-the-dying-detective.xhtml" id="the-adventure-of-the-dying-detective.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-the-red-circle.xhtml" id="the-adventure-of-the-red-circle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-adventure-of-wisteria-lodge.xhtml" id="the-adventure-of-wisteria-lodge.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-disappearance-of-lady-frances-carfax.xhtml" id="the-disappearance-of-lady-frances-carfax.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
