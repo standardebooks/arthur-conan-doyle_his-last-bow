@@ -1,7 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-.headline p{
+#the-adventure-of-wisteria-lodge-2 blockquote p{
 	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
