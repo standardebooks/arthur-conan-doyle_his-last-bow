@@ -66,7 +66,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/2350</dc:source>
 		<dc:source>https://archive.org/details/hislastbowaremi01doylgoog</dc:source>
 		<meta property="se:production-notes">This volume has been assembled from separate productions of each short story at Project Gutenberg. Note that it does not include the story “The Adventure of the Cardboard Box,” which is included in its proper chronological place in the SE edition of “The Memoirs of Sherlock Holmes.”</meta>
-		<meta property="se:word-count">59636</meta>
+		<meta property="se:word-count">59635</meta>
 		<meta property="se:reading-ease.flesch">74.79</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/His_Last_Bow</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/arthur-conan-doyle_his-last-bow</meta>
