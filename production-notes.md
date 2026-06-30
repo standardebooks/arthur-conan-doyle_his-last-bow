@@ -1,0 +1,1 @@
+This volume has been assembled from separate productions of each short story at Project Gutenberg. Note that it does not include the story “The Adventure of the Cardboard Box,” which is included in its proper chronological place in the SE edition of “The Memoirs of Sherlock Holmes.”
