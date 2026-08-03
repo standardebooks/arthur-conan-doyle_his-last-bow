@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/arthur-conan-doyle/his-last-bow</dc:identifier>
 		<dc:date>2018-09-15T17:31:37Z</dc:date>
@@ -61,11 +61,11 @@
 		<meta id="collection-4" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
 		<meta property="collection-type" refines="#collection-4">set</meta>
 		<meta property="group-position" refines="#collection-4">3</meta>
-		<dc:description id="description">The world’s first consulting detective and his faithful biographer tackle more mysterious cases.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>The world’s first consulting detective and his faithful biographer tackle more mysterious cases.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;His Last Bow: Some Reminiscences of Sherlock Holmes&lt;/i&gt; is the fourth collection of &lt;a href="https://standardebooks.org/collections/sherlock-holmes"&gt;Sherlock Holmes&lt;/a&gt; stories published by &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Conan Doyle&lt;/a&gt;. It begins with a preface by &lt;abbr&gt;Dr.&lt;/abbr&gt; John Watson, supposedly written in 1917, assuring the reader that Holmes is still alive but living in quiet retirement in Sussex.&lt;/p&gt;
 			&lt;p&gt;This collection contains the well-known stories “The Adventure of the Bruce-Partington Plans,” in which Holmes has to track down stolen plans for a new kind of submarine; and “The Adventure of the Devil’s Foot” in which a Cornish family is found one morning driven mad or dead, with expressions of horror on their faces. The titular story “His Last Bow” is set on the very eve of the outbreak of the First World War, and involves Holmes and Watson coming out of retirement to defeat a German spy.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2343</dc:source>
 		<dc:source>https://www.gutenberg.org/ebooks/2345</dc:source>
